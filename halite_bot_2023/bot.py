@@ -1,12 +1,6 @@
 import logging
 import operator
-import sys
-from dataclasses import dataclass
-from functools import partial
-from pprint import pformat
 from typing import Any, Callable, Dict, Iterable, List, Set
-
-import networkx as nx
 
 from . import hlt
 from .hlt import EAST, NORTH, SOUTH, STILL, WEST, GameMap, Move, Square, grouper
