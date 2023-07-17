@@ -1,0 +1,8 @@
+*.hlt
+*.log
+poetry.toml
+.envrc
+README.md
+halite
+.idea/
+.venv/
